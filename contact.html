@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTIT-Học viện Công nghệ Bưu chính Viễn thông</title>
+    <link rel="stylesheet" href="ptit.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <script src="https://kit.fontawesome.com/9c3e14a0dd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="contact_sub-header">
+        <nav>
+            <a herf="ptit.html"><img src="logo88.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-square-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="ptit.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">INFO</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>LIÊN HỆ VỚI CHÚNG TÔI</h1>
+    </section>
+
+
+<!-----------contact us-------------->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.2926381717443!2d105.78486297503015!3d20.980903480656497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135accdd8a1ad71%3A0xa2f9b16036648187!2zSOG7jWMgdmnhu4duIEPDtG5nIG5naOG7hyBCxrB1IGNow61uaCB2aeG7hW4gdGjDtG5n!5e0!3m2!1svi!2s!4v1717477237264!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <span>
+                    <h5>ptit.edu.vn/tuyensinh.ptit.edu.vn</h5>
+                    <p>Web tuyển sinh</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>
+                    <h5>024 3351 2252</h5>
+                    <p>Tư vấn liên hệ</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa-regular fa-envelope"></i>
+                <span>
+                    <h5>tuyensinh@ptit.edu.vn</h5>
+                    <p>Email tuyển sinh</p>
+                </span>
+            </div>
+        </div>
+
+<div class="contact-col">
+    <form action="form.php" method="post">
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <input type="email" name="email" placeholder="Enter email address" required>
+        <input type="text" name="subject" placeholder="Enter your subject" required>
+        <textarea rows="8" name="message" placeholder="Message" required></textarea>
+        <button type="submit" class="hero-btn red-btn">Send Message</button>
+    </form>
+
+
+</div>
+    </div>
+</section>
+
+
+
+<!-----------Footer---------------->
+
+<section class="footer">
+    <h4>About This Website</h4>
+    <p>Bài tập lớn "Lập trình với Script" <br> "Thiết kế website Học viện Công nghệ Bưu chính Viễn thông PTIT"</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+    <p> Được làm với cả <i class="fa-solid fa-heart"></i> bởi Hồng Phúc</p>
+
+</section>
+
+
+
+
+    <!---------JAVASCRIPT FOR TOGGLE MENU--------->
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+        }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+
+</script>   
+</body>
+</html>
